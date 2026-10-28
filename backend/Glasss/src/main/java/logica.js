@@ -1,7 +1,7 @@
 fetch('http://localhost:8080/Glasss/api/users/*', {
     method: 'POST',
     headers: {
-        'Content-Type': 'application/html'
+        'Content-Type': 'application/x-www-form-urlencoded'
     },
     body: 'name=Vicente'
 })
